@@ -27,6 +27,7 @@ public class UserActivity  extends AppCompatActivity {
             nombre = recibir.getStringExtra("nombre");
             telefono = recibir.getStringExtra("telefono");
             imagen = recibir.getIntExtra("imagen", R.drawable.persona);
+
             // Falta asignar el nombre y telefono al Textview correspondiente
             // la imagen al circleimagen
             textoNombre.setText(nombre);
